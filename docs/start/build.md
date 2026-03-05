@@ -15,7 +15,7 @@ docker run -d \
     -v $(pwd)/db:/app/db \
     -p 8000:8000 \
     -e TIMEOUT=600 \
-    -e DOMAINS="['yourdomain.com','www.yourdomain.com']" \
+    -e DOMAINS="[\"yourdomain.com\",\"www.yourdomain.com\"]" \
     --name="qexo" \
     abudulin/qexo:latest
 ```
